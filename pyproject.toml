@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "idrivetools"
+version = "0.1.4"
+description = "iDrive tools for packing and unpacking BMW backups"
+authors = ["Chris Read <centurix@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+bmwpack = 'idrivetools.pack:pack_files'
+bmwunpack = 'idrivetools.unpack:unpack_files'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,10 @@
+.idea
+venv
+dist
+__pycache__
+
+tests/test_files
+restore
+
+requirements.txt
+
