@@ -1,8 +1,23 @@
 [tool.poetry]
 name = "idrivetools"
-version = "0.1.15"
+version = "0.1.17"
 description = "iDrive tools for packing and unpacking BMW backups"
 authors = ["Chris Read <centurix@gmail.com>"]
+readme = "README.rst"
+repository = "https://github.com/Centurix/idrivetools"
+keywords = ["bmw", "idrive", "media", "backup", "restore"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Multimedia :: Sound/Audio :: Conversion",
+    "Topic :: Utilities"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"

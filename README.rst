@@ -3,6 +3,15 @@ iDriveTools
 
 Tools for managing BMW iDrive music backups. There are two tools included in this package.
 
+Installation
+------------
+
+These utilities can be installed using pip.
+
+::
+
+    pip install idrivetools
+
 bmwunpack
 ---------
 
@@ -13,7 +22,9 @@ Typical arguments contain the source and destination folders.
 Usage
 *****
 
-`bmwunpack BMWData unpacked`
+::
+
+    bmwunpack BMWData unpacked
 
 bmwpack
 -------
@@ -24,7 +35,9 @@ create a BMW backup that can be restored back into the iDrive system
 Usage
 *****
 
-`bmwpack unpacked BMWData`
+::
+
+    bmwpack unpacked BMWData
 
 Notes
 -----
