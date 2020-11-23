@@ -3,6 +3,8 @@ iDriveTools
 
 Tools for managing BMW iDrive music backups. There are two tools included in this package.
 
+*This tool requires Python 3.7+*
+
 Installation
 ------------
 
