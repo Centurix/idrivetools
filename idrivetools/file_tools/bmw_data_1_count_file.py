@@ -15,6 +15,10 @@ class BMWData1CountFile(BMWFile):
         Count all the sub-folders in the backup and create
         the data_1 file. Exclude _Playlists folder
         """
+        # Create directories if necessary
+        path, _ = os.path.split(destination)
+        Path(path).mkdir(parents=True, exist_ok=True)
+
         if encrypt:
             root, _ = os.path.split(destination)
 
@@ -28,10 +32,6 @@ class BMWData1CountFile(BMWFile):
                 destination_file.write(f"{len(folders)}")
 
             return
-
-        # Create directories if necessary
-        path, _ = os.path.split(destination)
-        Path(path).mkdir(parents=True, exist_ok=True)
 
         with open(self._filename, "rb") as source_file:
             with open(destination, "wb") as destination_file:

@@ -19,6 +19,10 @@ class BMWBackupFile(BMWFile):
         path, _ = os.path.split(destination)
         Path(path).mkdir(parents=True, exist_ok=True)
 
-        with open(self._filename, "rb") as source_file:
-            with open(destination, "wb") as destination_file:
-                destination_file.write(source_file.read())
+        contents = "NBTV2"
+        if os.path.exists(self._filename):
+            with open(self._filename, "r") as source_file:
+                contents = source_file.read()
+
+        with open(destination, "w") as destination_file:
+            destination_file.write(contents)
