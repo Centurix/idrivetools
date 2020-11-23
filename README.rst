@@ -8,11 +8,16 @@ Tools for managing BMW iDrive music backups. There are two tools included in thi
 Installation
 ------------
 
-These utilities can be installed using pip.
+These utilities can be installed using pip. pip can be installed following the instruction here_
+
+.. _here: https://pip.pypa.io/en/stable/installing/
 
 ::
 
     pip install idrivetools
+
+Eventually, this will have standalone executables for Windows and Mac. But for now, pip will also install
+on the same operating systems.
 
 bmwunpack
 ---------
@@ -118,3 +123,23 @@ with a UNIX file format name (forward slashes). They typically look like this:
     /USB1/CAKE - Pressure Chief/11 - CAKE - Tougher Than It Is.mp3
 
 These can be edited to keep the same absolute path. They are included in the _Playlists folder.
+
+How Do I Give Feedback
+======================
+
+This code lives at this repo_ and there is a section at the top for reporting issues and
+giving feedback. I'm pretty friendly and keen on making this better, so make suggestions.
+
+.. _repo: https://github.com/Centurix/idrivetools
+
+What's Planned
+==============
+
+There is scope here to provide some more functionality:
+
+* Generate playlists from folders
+* Generate an empty backup structure ready for filling
+* Better command line feedback, like a progress bar
+* An in-place editing mode, where you can edit files without having to unpack
+* Expose core functionality as modules/packages so it can integrated into other projects
+* Maybe some kind of GUI later down the track.
