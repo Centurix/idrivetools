@@ -46,6 +46,31 @@ Usage
 
     bmwpack unpacked BMWData
 
+bmwcreatenewbackup
+------------------
+
+This command is used to create an empty backup folder structure. This folder structure
+can be populated with media files and then packed later.
+
+Usage
+*****
+
+::
+
+    bmwcreatenewbackup new_backup
+
+bmwconvert
+----------
+
+This command takes a folder full of media files and converts it to a backup structure.
+
+Usage
+*****
+
+::
+
+    bmwconvert media_folder new_backup
+
 Notes
 -----
 
