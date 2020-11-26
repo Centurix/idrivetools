@@ -163,7 +163,8 @@ What's Planned
 There is scope here to provide some more functionality:
 
 * Generate playlists from folders
-* Generate an empty backup structure ready for filling
+* Generate an empty backup structure ready for filling (Done!)
+* Generate a backup from just a folder full of media files (Done!)
 * Better command line feedback, like a progress bar
 * An in-place editing mode, where you can edit files without having to unpack
 * Expose core functionality as modules/packages so it can integrated into other projects
