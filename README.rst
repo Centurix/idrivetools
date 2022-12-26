@@ -120,6 +120,7 @@ Media files
 
 * MP3 (BR4, BR28)
 * MP4 (BR3, BR27)
+* M4B (BR37)
 * AAC (BR25)
 * FLAC (BR48)
 * WMA (BR5, BR29)
