@@ -1,3 +1,8 @@
+NOTE
+====
+
+I no longer have direct access to a BMW vehicle to test things. I can answer questions and possible fix issues, but I cannot test things.
+
 iDriveTools
 ===========
 
