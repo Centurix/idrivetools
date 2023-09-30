@@ -10,7 +10,7 @@ class BMWFileFactory:
     ext_map = {
         ".BR3": (".MP4", ".BR3", True, 0x20000),
         ".BR4": (".MP3", ".BR4", True),
-        ".BR5": (".WMA", ".BR5", True, 0x20000),
+        ".BR5": (".WMA", ".BR5", True),
         ".BR25": (".AAC", ".BR25", True),
         ".BR27": (".MP4", ".BR27", True, 0x20000),
         ".BR28": (".MP3", ".BR28", True),
